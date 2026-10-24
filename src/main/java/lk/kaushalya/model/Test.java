@@ -7,6 +7,7 @@ interface  Visitor{
 }
 
 class EatVisitor implements Visitor{
+
     @Override
     public void visit(Lion lion) {
         System.out.println("Lion is eating");
